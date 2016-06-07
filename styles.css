@@ -1,0 +1,17 @@
+body {
+  min-width: 1600px;
+  min-height: 2300px;
+  
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Arial", sans-serif;
+  color: #4e4e4e;
+  
+  background: #ffffff;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
