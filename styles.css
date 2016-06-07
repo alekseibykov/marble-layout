@@ -1,17 +1,123 @@
 body {
-  min-width: 1600px;
-  min-height: 2300px;
+  max-width: 1600px;
+  height: 2306px;
+  margin: 0 auto;
+  padding: 0;
   
   font-size: 14px;
   line-height: 24px;
   font-family: "Arial", sans-serif;
   color: #4e4e4e;
   
-  background: #ffffff;
+  background: #ffffff url("img/index.png") no-repeat 50%;
+  background-size: 1600px auto;
 }
 
 .clearfix::after {
   content: "";
   display: block;
   clear: both;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  
+  min-height: 123px;
+}
+
+.main-header {
+  min-height: 123px;
+  background: red;
+  opacity: 0.3;
+  
+  
+  min-height: 123px;
+}
+
+.index-logo {
+  float: left;
+  width: 380px;
+  
+  min-height: 123px;
+}
+
+.main-navigation {
+  float: right;
+  width: 775px;
+  
+  min-height: 123px;
+}
+
+.hero {
+  min-height: 600px;
+  
+}
+
+.hero h1 {
+  margin-top: 0;
+}
+
+.features {
+  min-height: 335px;
+}
+
+.features-item {
+  float: left;
+  width: 292.5px;
+  min-height: 335px;
+}
+
+.works {
+  min-height: 560px;
+}
+
+.works-item {
+  float: left;
+  width: 380px;
+  margin-right: 15px;
+
+  min-height: 560px;
+}
+
+.works-item:last-child {
+  margin-right: 0;
+}
+
+.quote {
+  min-height: 230px;
+}
+
+.footer-wrap {
+  
+  
+  min-height: 347px;
+}
+
+.contact {
+  float: left;
+  width: 292.5px;
+  min-height: 347px;
+}
+
+.tweets {
+  float: left;
+  width: 292.5px;
+  min-height: 347px;
+}
+
+.popular {
+  float: left;
+  width: 292.5px;
+  min-height: 347px;
+}
+
+.about {
+  float: left;
+  width: 292.5px;
+  min-height: 347px;
+}
+
+footer .copyright {
+  min-height: 112px;
 }
